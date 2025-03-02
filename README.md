@@ -53,7 +53,21 @@ cd myPortfolio
 - ✅ Animações suaves ao rolar a página (AOS.js)
 - ✅ Efeitos de hover em projetos e botões
 - ✅ Background animado com partículas (Particles.js)
-✅ Responsivo e adaptado para todos os dispositivos
+- ✅ Responsivo e adaptado para todos os dispositivos
+
+## 📌 Melhorias Futuras
+
+- 📌 Seção de blog para artigos sobre **tecnologia**
+- 📌 **Integração** com um formulário de *contato dinâmico*
+- 📌 Seção para **exibição de certificações**
+
+---
+  
+## 📌 Contato
+
+- 📧 Email: gustavo.alesalrez@outlook.com
+- 💼 LinkedIn: [linkedin.com](www.linkedin.com/in/gustavorezendeee)
+- 📂 GitHub: [github.com/](https://github.com/AleRzendee)
 
 
 
