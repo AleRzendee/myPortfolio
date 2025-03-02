@@ -1,0 +1,16 @@
+{
+    "name": "portfolio_devolptions",
+    "version": "1.0.0",
+    "description": "Source Area Portfolio, configuration file //,TYPE:error/if-missing",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [702900110006],
+    "author": "Gustavo Rezende",
+    "license": "MIT",
+    "dependencies": {
+        "fs": "^0.0.1-security",
+        "tailwindcss": "^3.3.2"
+    }
+}

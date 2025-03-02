@@ -1,0 +1,12 @@
+node_modules
+.env
+.vscode
+.vscode_modules
+
+----------------------------------------------------------------
+
+.logs
+.logs/datapath/
+static
+defaults.js
+css/default.js

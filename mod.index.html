@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="refresh" content="7000">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Seu Portfólio, desenvolvido por Gustavo Rezende &copy;2025, ">
+
+    <title>Meu Portfólio</title>
+
+    <!--! Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!--! Tailwind.css -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!--! Biblioteca de Animação -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--! Reset.css -->
+    <link rel="stylesheet" href="/src/css/reset.config.css">
+</head>
+<body class="bg-gray-900 text-white font-sans relative">
+
+    <!-- Background animado -->
+    <div id="particles-js" class="absolute top-0 left-0 w-full h-full -z-10"></div>
+
+    <!--! Header -->
+    <header class="bg-gradient-to-r from-blue-500 to-cyan-400 text-center py-12">
+        <h1 class="text-4xl font-bold">Gustavo Rezende</h1>
+        <p class="text-lg mt-2">Desenvolvedor Full-Stack</p>
+    </header>
+
+    <!--! Seção Sobre -->
+    <section id="sobre" class="text-center py-16 px-6" data-aos="fade-up">
+        <h2 class="text-3xl font-semibold">Sobre Mim</h2>
+        <p class="text-lg mt-4 max-w-2xl mx-auto">Sou um desenvolvedor apaixonado por tecnologia, atualmente focado em me tornar full-stack completo e construir soluções inovadoras, especializado em JavaScript, Node.js e outras tecnologias modernas.</p>
+    </section>
+
+    <!--! Seção Projetos -->
+    <section id="projetos" class="text-center py-16 px-6" data-aos="fade-up">
+        <h2 class="text-3xl font-semibold">Projetos</h2>
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <div class="bg-gray-800 p-6 rounded-lg transition-transform transform hover:scale-105 hover:bg-gray-700">
+                <h3 class="text-xl font-semibold">Projeto 1</h3>
+                <p class="text-gray-400 mt-2">Descrição breve do projeto.</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg transition-transform transform hover:scale-105 hover:bg-gray-700">
+                <h3 class="text-xl font-semibold">Projeto 2</h3>
+                <p class="text-gray-400 mt-2">Descrição breve do projeto.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--! Seção Contato -->
+    <section id="contato" class="text-center py-16 px-6" data-aos="fade-up">
+        <h2 class="text-3xl font-semibold">Contato</h2>
+        <div class="mt-6 flex justify-center space-x-4">
+            <a href="#" class="bg-blue-500 px-6 py-2 rounded-lg text-white hover:scale-110 hover:shadow-lg transition">LinkedIn</a>
+            <a href="#" class="bg-gray-700 px-6 py-2 rounded-lg text-white hover:scale-110 hover:shadow-lg transition">GitHub</a>
+            <a href="#" class="bg-green-500 px-6 py-2 rounded-lg text-white hover:scale-110 hover:shadow-lg transition">Email</a>
+        </div>
+    </section>
+
+    <!--! Footer -->
+    <footer class="bg-black text-center py-6">
+        <p class="text-gray-400">&copy; 2025 Gustavo Rezende. Todos os direitos reservados.</p>
+    </footer>
+
+    <!--! Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS("particles-js", {
+        particles: {
+          number: { value: 80 },
+          size: { value: 3 },
+          move: { speed: 2 },
+          color: { value: "#00d4ff" },
+          line_linked: { enable: true, distance: 150, color: "#ffffff" }
+        }
+      });
+    </script>
+
+</body>
+</html>
