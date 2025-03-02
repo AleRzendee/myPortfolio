@@ -69,6 +69,8 @@ cd myPortfolio
 - 💼 LinkedIn: [linkedin.com](www.linkedin.com/in/gustavorezendeee)
 - 📂 GitHub: [github.com/](https://github.com/AleRzendee)
 
+<span style="color: #FFF">🛠️ Desenvolvido por Gustavo Rezende - 2025 🚀</span>
+
 
 
 
