@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos | Gustavo Rezende</title>
+    <title>Página de Projetos | Project Pages</title>
+    <link rel="shortcut icon" href="./icon-page.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-gray-900 text-white font-sans">
+<body class="bg-gray-800 text-white font-sans">
 
     <!-- Navbar -->
     <nav class="bg-gray-900 shadow-lg fixed top-0 left-0 w-full z-50">
@@ -28,32 +29,55 @@
     <!-- Header -->
     <header class="text-center py-20 bg-gradient-to-r from-blue-600 to-red-500 mt-16">
         <h1 class="text-5xl font-extrabold drop-shadow-lg">Meus Projetos</h1>
-        <p class="text-xl mt-2 font-medium text-gray-100">Confira meus principais projetos, trabalhos e contribuições
-            como Dev</p>
+        <p class="text-xl mt-2 font-medium text-gray-100">Confira alguns dos meus trabalhos e contribuições</p>
     </header>
 
     <!-- Projetos -->
-    <section class="max-w-6xl mx-auto py-16 px-6">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <section class="bg-gray-800 max-w-6xl mx-auto py-16 px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 bg-gray-800">
             <!-- Exemplo de Projeto -->
-            <div class="bg-red-700 p-6 rounded-lg shadow-lg hover:scale-105 transition">
-                <h3 class="text-xl justify-center font-semibold">Txt.ly Editor</h3>
+            <div
+                class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transition flex flex-col items-center text-center">
                 <img src="https://github.com/AleRzendee/txtly/blob/main/public/images/002-txtly_logotipo.png?raw=true"
-                    alt="Logo do projeto" class="w-20 h-20 mx-auto mb-4">
-                <p class="text-gray-300 mt-2"></p>
-                <a href="#" class="mt-4 inline-block text-blue-300 hover:text-blue-400 transition">Ver mais</a>
+                    alt="Projeto 1" class="w-20 h-20 mb-4">
+                <h3 class="text-xl text-black font-semibold">Txt.ly Editor</h3>
+                <p class="text-black mt-2">Txtly é o editor de texto minimalista e poderoso que você precisa.
+                    Personalize, edite e compartilhe com facilidade.</p>
+                <a href="https://github.com/AleRzendee/txtly"
+                    class="mt-4 inline-block text-blue-300 hover:text-blue-400 transition">Ver mais</a>
+                <div class="flex space-x-4 mt-4">
+                    <img src="public/images/ts-logo.png" alt="Tech 1" class="w-8 h-8">
+                    <img src="public/images/tw-logo.png" alt="Tech 2" class="w-8 h-8">
+                    <img src="public/images/next-logo.png" alt="Tech 3" class="w-8 h-8">
+                    <img src="public/icons/prisma-3.svg" alt="Tech 4" class="w-8 h-8">
+                    <img src="public/icons/Google_Bard_logo.svg" alt="Tech 5" class="w-8 h-8">
+                </div>
             </div>
 
-            <div class="bg-red-700 p-6 rounded-lg shadow-lg hover:scale-105 transition">
+            <div
+                class="bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transition flex flex-col items-center text-center">
+                <!-- <img src="public/images/project2-logo.png" alt="Projeto 2" class="w-20 h-20 mb-4">
                 <h3 class="text-xl font-semibold">Projeto 2</h3>
                 <p class="text-gray-300 mt-2">Descrição breve do projeto.</p>
                 <a href="#" class="mt-4 inline-block text-blue-300 hover:text-blue-400 transition">Ver mais</a>
+                <div class="flex space-x-4 mt-4">
+                    <img src="public/images/tech1.png" alt="Tech 1" class="w-8 h-8">
+                    <img src="public/images/tech2.png" alt="Tech 2" class="w-8 h-8">
+                    <img src="public/images/tech3.png" alt="Tech 3" class="w-8 h-8">
+                </div> -->
             </div>
 
-            <div class="bg-red-700 p-6 rounded-lg shadow-lg hover:scale-105 transition">
+            <div
+                class="bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transition flex flex-col items-center text-center">
+                <!-- <img src="public/images/project3-logo.png" alt="Projeto 3" class="w-20 h-20 mb-4">
                 <h3 class="text-xl font-semibold">Projeto 3</h3>
                 <p class="text-gray-300 mt-2">Descrição breve do projeto.</p>
                 <a href="#" class="mt-4 inline-block text-blue-300 hover:text-blue-400 transition">Ver mais</a>
+                <div class="flex space-x-4 mt-4">
+                    <img src="public/images/tech1.png" alt="Tech 1" class="w-8 h-8">
+                    <img src="public/images/tech2.png" alt="Tech 2" class="w-8 h-8">
+                    <img src="public/images/tech3.png" alt="Tech 3" class="w-8 h-8">
+                </div> -->
             </div>
         </div>
     </section>
