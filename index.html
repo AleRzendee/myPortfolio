@@ -6,26 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Portfólio de Gustavo Rezende - Desenvolvedor Full-Stack">
-    <title>Meu Portfólio | Gustavo Rezende</title>
+    <title>Meu Portfólio | My Portfolio</title>
     <link rel="shortcut icon" href="public/images/icon-page.png" type="image/x-icon">
 
-    <!--! Fontes & Estilos -->
+    <!-- Fontes & Estilos -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/src/css/reset.config.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
 </head>
 
 <body class="bg-gray-900 text-white font-sans relative">
-    <div id="particles-js" class="absolute top-0 left-0 w-full h-full -z-10"></div>
+    <nav class="bg-gray-900 shadow-lg fixed top-0 left-0 w-full z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <a href="https://instagram.com" target="_blank"
+                        class="text-pink-500 text-xl hover:text-pink-400 transition">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank"
+                        class="text-blue-500 text-xl hover:text-blue-400 transition">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank"
+                        class="text-gray-300 text-xl hover:text-gray-500 transition">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <a href="index.html" class="text-2xl font-extrabold text-blue-400 hover:text-blue-500">Gustavo
+                    Rezende</a>
+                <ul class="hidden md:flex space-x-6">
+                    <li><a href="index.html" class="text-white hover:text-blue-400 transition">Início</a></li>
+                    <li><a href="projetos.html" class="text-white hover:text-blue-400 transition">Projetos</a></li>
+                    <li><a href="certificados.html" class="text-white hover:text-blue-400 transition">Certificados</a>
+                    </li>
+                    <li><a href="timeline.html" class="text-white hover:text-blue-400 transition">Linha do Tempo</a>
+                    </li>
+                    <li><a href="contato.html" class="text-white hover:text-blue-400 transition">Contato</a></li>
+                </ul>
+                <!-- Menu Mobile -->
+                <button id="menu-toggle" class="md:hidden text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800 py-4">
+            <ul class="text-center">
+                <li><a href="index.html" class="block py-2 text-white hover:text-blue-400 transition">Início</a></li>
+                <li><a href="projetos.html" class="block py-2 text-white hover:text-blue-400 transition">Projetos</a>
+                </li>
+                <li><a href="certificados.html"
+                        class="block py-2 text-white hover:text-blue-400 transition">Certificados</a></li>
+                <li><a href="timeline.html" class="block py-2 text-white hover:text-blue-400 transition">Linha do
+                        Tempo</a></li>
+                <li><a href="contato.html" class="block py-2 text-white hover:text-blue-400 transition">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <!--! Header -->
-    <header class="bg-gradient-to-r from-blue-500 to-cyan-400 text-center py-12">
-        <h1 class="text-4xl font-bold">Gustavo Rezende</h1>
-        <p class="text-lg mt-2">Desenvolvedor Full-Stack</p>
+    <div id="particles-js" class="absolute left-0 w-full h-full -z-10"></div>
+    <!-- Header -->
+    <header
+        class="relative text-center py-20 bg-gradient-to-r from-blue-600 to-cyan-400 flex flex-col items-center justify-center">
+        <img src="public/images/eu.jpg" alt="Gustavo Rezende"
+            class="w-56 h-63 object-cover rounded-full border-4 border-white shadow-lg">
+        <h1 class="text-5xl font-extrabold mt-4 drop-shadow-lg">Gustavo Rezende</h1>
+        <p class="text-xl mt-2 font-medium text-gray-100">Desenvolvedor Full-Stack | Criando experiências digitais</p>
     </header>
 
-    <!--! Seção Sobre -->
+    <!-- Seção Sobre -->
     <section id="sobre" class="text-center py-16 px-6" data-aos="fade-up">
         <h2 class="text-3xl font-semibold">Sobre Mim</h2>
         <p class="text-lg mt-4 max-w-2xl mx-auto">Sou um desenvolvedor apaixonado por tecnologia, focado em construir
@@ -33,23 +90,8 @@
             front-end.</p>
     </section>
 
-    <!--! Seção Projetos -->
-    <section id="projetos" class="text-center py-16 px-6" data-aos="fade-up">
-        <h2 class="text-3xl font-semibold">Projetos</h2>
-        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <div class="bg-gray-800 p-6 rounded-lg transition-transform transform hover:scale-105 hover:bg-gray-700">
-                <h3 class="text-xl font-semibold">Projeto 1</h3>
-                <p class="text-gray-400 mt-2">Descrição breve do projeto.</p>
-            </div>
-            <div class="bg-gray-800 p-6 rounded-lg transition-transform transform hover:scale-105 hover:bg-gray-700">
-                <h3 class="text-xl font-semibold">Projeto 2</h3>
-                <p class="text-gray-400 mt-2">Descrição breve do projeto.</p>
-            </div>
-        </div>
-    </section>
-
-    <!--! Seção Contato -->
-    <section id="contato" class="text-center py-16 px-6" data-aos="fade-up">
+    <!-- Seção Contato -->
+    <!-- <section id="contato" class="text-center py-16 px-6" data-aos="fade-up">
         <h2 class="text-3xl font-semibold">Contato</h2>
         <div class="mt-6 flex justify-center space-x-4">
             <a href="#"
@@ -59,18 +101,17 @@
             <a href="#"
                 class="bg-green-500 px-6 py-2 rounded-lg text-white hover:scale-110 hover:shadow-lg transition">Email</a>
         </div>
-    </section>
+    </section> -->
 
-    <!--! Footer -->
+    <!-- Footer -->
     <footer class="bg-black text-center py-6">
         <p class="text-gray-400">&copy; 2025 Gustavo Rezende. Todos os direitos reservados.</p>
     </footer>
 
-    <!--! Scripts -->
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({ duration: 1000, once: true });
-    </script>
+    <script>AOS.init({ duration: 1000, once: true });</script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
         particlesJS("particles-js", {
