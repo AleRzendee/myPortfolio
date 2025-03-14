@@ -2,146 +2,144 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Portfólio de Gustavo Rezende - Desenvolvedor Full-Stack">
-    <title>Meu Portfólio | My Portfolio</title>
-    <link rel="shortcut icon" href="./icon-page.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Portfólio de Gustavo Rezende - Desenvolvedor Full-Stack">
+  <title>Meu Portfólio | My Portfolio</title>
+  <link rel="shortcut icon" href="./icon-page.png" type="image/x-icon">
 
-    <!-- Fontes & Estilos -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/src/css/reset.config.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <!-- Fontes & Estilos -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/src/css/reset.config.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
 
 </head>
 
 <body class="bg-gray-900 text-white font-sans relative">
-    <nav class="bg-gray-900 shadow-lg fixed top-0 left-0 w-full z-50">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="flex justify-between items-center py-4">
-                <a href="https://www.linkedin.com/in/gustavorezendeee"
-                    class="text-2xl font-extrabold text-blue-400 hover:text-blue-500">Gustavo
-                    Rezende</a>
-                <ul class="hidden md:flex space-x-6">
-                    <li><a href="index.html" class="text-white hover:text-blue-400 transition">Início</a></li>
-                    <li><a href="projetos.html" class="text-white hover:text-blue-400 transition">Projetos</a></li>
-                    <li><a href="certificados.html" class="text-white hover:text-blue-400 transition">Certificados</a>
-                    </li>
-                    <li><a href="timeline.html" class="text-white hover:text-blue-400 transition">Linha do Tempo</a>
-                    </li>
-                    <li><a href="contato.html" class="text-white hover:text-blue-400 transition">Contato</a></li>
-                </ul>
-                <button id="menu-toggle" class="md:hidden text-white focus:outline-none">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <div id="mobile-menu" class="hidden md:hidden bg-gray-800 py-4">
-            <ul class="text-center">
-                <li><a href="index.html" class="block py-2 text-white hover:text-blue-400 transition">Início</a></li>
-                <li><a href="projetos.html" class="block py-2 text-white hover:text-blue-400 transition">Projetos</a>
-                </li>
-                <li><a href="certificados.html"
-                        class="block py-2 text-white hover:text-blue-400 transition">Certificados</a></li>
-                <li><a href="timeline.html" class="block py-2 text-white hover:text-blue-400 transition">Linha do
-                        Tempo</a></li>
-                <li><a href="contato.html" class="block py-2 text-white hover:text-blue-400 transition">Contato</a></li>
-            </ul>
-        </div>
-    </nav>
+  <nav class="bg-gray-900 shadow-lg fixed top-0 left-0 w-full z-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex justify-between items-center py-4">
+        <a href="https://www.linkedin.com/in/gustavorezendeee"
+          class="text-2xl font-extrabold text-blue-400 hover:text-blue-500">Gustavo
+          Rezende</a>
+        <ul class="hidden md:flex space-x-6">
+          <li><a href="index.html" class="text-white hover:text-blue-400 transition">Início</a></li>
+          <li><a href="projetos.html" class="text-white hover:text-blue-400 transition">Projetos</a></li>
+          <li><a href="certificados.html" class="text-white hover:text-blue-400 transition">Certificados</a>
+          </li>
+          <li><a href="timeline.html" class="text-white hover:text-blue-400 transition">Linha do Tempo</a>
+          </li>
+          <li><a href="contato.html" class="text-white hover:text-blue-400 transition">Contato</a></li>
+        </ul>
+        <button id="menu-toggle" class="md:hidden text-white focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-gray-800 py-4">
+      <ul class="text-center">
+        <li><a href="index.html" class="block py-2 text-white hover:text-blue-400 transition">Início</a></li>
+        <li><a href="projetos.html" class="block py-2 text-white hover:text-blue-400 transition">Projetos</a>
+        </li>
+        <li><a href="certificados.html" class="block py-2 text-white hover:text-blue-400 transition">Certificados</a>
+        </li>
+        <li><a href="timeline.html" class="block py-2 text-white hover:text-blue-400 transition">Linha do
+            Tempo</a></li>
+        <li><a href="contato.html" class="block py-2 text-white hover:text-blue-400 transition">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <div id="particles-js" class="absolute left-0 w-full h-full -z-10"></div>
-    <header
-        class="relative text-center py-20 bg-gradient-to-r from-blue-600 to-cyan-400 flex flex-col items-center justify-center">
-        <img src="public/images/eu.jpg" alt="Gustavo Rezende"
-            class="w-56 h-63 object-cover rounded-full border-4 border-white shadow-lg">
-        <h1 class="text-5xl font-extrabold mt-4 drop-shadow-lg">Gustavo Rezende</h1>
-        <p class="text-xl mt-2 font-medium text-gray-100">Desenvolvedor Full-Stack | Criando experiências digitais</p>
-    </header>
-    <section id="sobre" class="text-2xl font-bold text-center py-16 px-6
+  <div id="particles-js" class="absolute left-0 w-full h-full -z-10"></div>
+  <header
+    class="relative text-center py-20 bg-gradient-to-r from-blue-600 to-cyan-400 flex flex-col items-center justify-center">
+    <img src="public/images/eu.jpg" alt="Gustavo Rezende"
+      class="w-56 h-63 object-cover rounded-full border-4 border-white shadow-lg">
+    <h1 class="text-5xl font-extrabold mt-4 drop-shadow-lg">Gustavo Rezende</h1>
+    <p class="text-xl mt-2 font-medium text-gray-100">Desenvolvedor Full-Stack | Criando experiências digitais</p>
+  </header>
+  <section id="sobre" class="text-2xl font-bold text-center py-16 px-6
     text-center py-16 px-6" data-aos="fade-up">
-        <h2 class="text-3xl font-semibold">Sobre Mim</h2>
-        <p class="mt-4 max-w-2xl mx-auto">Futuro Engenheiro de Software | Desenvolvedor Web Full-Stack Júnior
-        </p>
+    <h2 class="text-3xl font-semibold">Sobre Mim</h2>
+    <p class="mt-4 max-w-2xl mx-auto">Futuro Engenheiro de Software | Desenvolvedor Web Full-Stack Júnior
+    </p>
 
-        <br>
+    <br>
 
-        <p>
-            Prazer leitor, me chamo Gustavo Alexandre e tenho 18 anos. Sou um Desenvolvedor Full-stack em formação no
-            interior de São Paulo, focado em aplicações webs e sistemas operacionais, além de também estudar no campo de
-            processamento de linguagem natural ( NPL ), Engenharia de Prompt e uso de LLM's.
-        </p>
-        <br>
-        <p>
-            Pretendo iniciar minha graduação no ano de 2025 em Engenharia de Software na FIAP, assim, construindo um
-            conhecimento sólido e organizado, estando disposto a te ajudar de forma mais eficiente possível e
-            impossível.
-        </p>
-        <br>
+    <p>
+      Prazer leitor, me chamo Gustavo Alexandre e tenho 18 anos. Sou um Desenvolvedor Full-stack em formação no
+      interior de São Paulo, focado em aplicações webs e sistemas operacionais, além de também estudar no campo de
+      processamento de linguagem natural ( NPL ), Engenharia de Prompt e uso de LLM's.
+    </p>
+    <br>
+    <p>
+      Pretendo iniciar minha graduação no ano de 2025 em Engenharia de Software na FIAP, assim, construindo um
+      conhecimento sólido e organizado, estando disposto a te ajudar de forma mais eficiente possível e
+      impossível.
+    </p>
+    <br>
 
-        <h2 class="text-3xl font-semibold">Tecnologias, habilidades e linguagens:</h2>
-        <br>
-        <ul>
-            <li class="list-none">> Javascript </li>
-            <li class="list-none">> Python </li>
-            <li class="list-none">> Typescript </li>
-        </ul>
-        <br>
-        <hr>
-        <br>
-        <ul>
-            <li>Tecnologiais de Front-End: <spam class="text-red-500">Node, React, Next, Angular, TailwindCSS, Sass,
-                    Figma</spam>
-            </li>
-            -
-            <li>Tecnologias de Back-End: <spam class="text-blue-400">Express, Django, Docker, Git, API's ( REST e
-                    GraphQL ), Jest, bycrypt</spam>
-            </li>
-            -
-            <li>Tecnologias a Banco de Dados: <spam class="text-green-500">Prisma, MongoDB, DynamoDB, Azure, Amazon
-                    SageMaker</spam>
-            </li>
-            -
-            <li>Outros: <spam class="text-yellow-600">AWS CloudFormation, Wordpress, Prompt engineering, Jupyter
-                    Notebook</spam>
-            </li>
-            -
-            <li>Metodologias ágeis: <spam class="text-purple-400">SCRUM, Kanban</spam>
-            </li>
-        </ul>
-        <br>
-        <br>
-        Obrigado por tirar um tempinho pra me conhecer resumidamente.</p>
-    </section>
+    <h2 class="text-3xl font-semibold">Tecnologias, habilidades e linguagens:</h2>
+    <br>
+    <ul>
+      <li class="list-none">> Javascript </li>
+      <li class="list-none">> Python </li>
+      <li class="list-none">> Typescript </li>
+    </ul>
+    <br>
+    <hr>
+    <br>
+    <ul>
+      <li>Tecnologiais de Front-End: <spam class="text-red-500">Node, React, Next, Angular, TailwindCSS, Sass,
+          Figma</spam>
+      </li>
+      -
+      <li>Tecnologias de Back-End: <spam class="text-blue-400">Express, Django, Docker, Git, API's ( REST e
+          GraphQL ), Jest, bycrypt</spam>
+      </li>
+      -
+      <li>Tecnologias a Banco de Dados: <spam class="text-green-500">Prisma, MongoDB, DynamoDB, Azure, Amazon
+          SageMaker</spam>
+      </li>
+      -
+      <li>Outros: <spam class="text-yellow-600">AWS CloudFormation, Wordpress, Prompt engineering, Jupyter
+          Notebook</spam>
+      </li>
+      -
+      <li>Metodologias ágeis: <spam class="text-purple-400">SCRUM, Kanban, Lean</spam>
+      </li>
+    </ul>
+    <br>
+    <br>
+    Obrigado por tirar um tempinho pra me conhecer resumidamente.</p>
+  </section>
 
-    <footer class="bg-black text-center py-6">
-        <p class="text-gray-400">&copy; 2025 Gustavo Rezende. Todos os direitos reservados.</p>
-    </footer>
+  <footer class="bg-black text-center py-6">
+    <p class="text-gray-400">&copy; 2025 Gustavo Rezende. Todos os direitos reservados.</p>
+  </footer>
 
-    <!--! Scripts -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>AOS.init({ duration: 1000, once: true });</script>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script>
-        particlesJS("particles-js", {
-            particles: {
-                number: { value: 80 },
-                size: { value: 3 },
-                move: { speed: 2 },
-                color: { value: "#00d4ff" },
-                line_linked: { enable: true, distance: 150, color: "#ffffff" }
-            }
-        });
-    </script>
+  <!--! Scripts -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, once: true });</script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      particles: {
+        number: { value: 80 },
+        size: { value: 3 },
+        move: { speed: 2 },
+        color: { value: "#00d4ff" },
+        line_linked: { enable: true, distance: 150, color: "#ffffff" }
+      }
+    });
+  </script>
 </body>
 
 </html>
