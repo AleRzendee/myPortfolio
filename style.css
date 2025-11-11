@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins'; 
     text-decoration: none;
     scroll-behavior: smooth;
     list-style: none;
@@ -56,7 +56,7 @@ li a::before {
     height: 5px;
     top: 25px;
     border-radius: 1rem;
-    transition: 0.3 ease-in-out;
+    transition: 0.5s ease-in-out;
     background: linear-gradient(to right, rgb(0, 157, 255), rgb(255, 0, 255));
 }
 
@@ -73,7 +73,7 @@ li a:hover::before {
     color: #ffffff;
     cursor: pointer;
     text-wrap: nowrap;
-    transition: 0.3s ease-in-out;
+    transition: 1.8s ease-in-out;
     background: linear-gradient(to right, rgb(0, 157, 255), rgb(255, 0, 255));
 }
 
@@ -82,6 +82,7 @@ li a:hover::before {
     transform: scale(1.03);
 }
 
-#menu-icon{
-    
+#menu-icon {
+    font-size: 2rem;
+    display: none;
 }
