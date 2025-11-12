@@ -73,7 +73,7 @@ li a:hover::before {
     color: #ffffff;
     cursor: pointer;
     text-wrap: nowrap;
-    transition: 1.8s ease-in-out;
+    transition: 0.3s ease-in-out;
     background: linear-gradient(to right, rgb(0, 157, 255), rgb(255, 0, 255));
 }
 
