@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+
     <!--! Header -->
     <header class="header">
         <a href="#" class="logo"><span>Gustavo Rezende</span></a>
@@ -20,9 +25,9 @@
             <li>
                 <a href="#about">Sobre</a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#experience">Experiência</a>
-            </li>
+            </li> -->
             <li>
                 <a href="#projects">Projetos</a>
             </li>
@@ -33,7 +38,7 @@
 
         <i id="menu-icon" class="fa-solid fa-bars"></i>
 
-        <button class="visit-btn">Visite Github</button>
+        <button class="visit-btn"><a href="https://github.com/AleRzendee" target="_blank">Visite Github</a></button>
     </header>
 
     <!--! about -->
@@ -49,8 +54,8 @@
                 </div>
 
                 <div class="btn-group">
-                    <div class="btn">Download CV</div>
-                    <div class="btn">Contato</div>
+                    <div class="btn"><a href="MeuCurriculoFullStack.pdf" target="_blank">Download CV</a></div>
+                    <div class="btn"><a href="#contact">Contato</a></div>
                 </div>
 
                 <div class="socials">
@@ -74,40 +79,86 @@
 
             <!--* Projeto 1 -->
             <div class="project-card">
-                <img src="" alt="first project">
+                <img src="code.png" alt="first project">
                 <h3>Projeto X</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, repellendus? Tempore beatae ducimus.</p>
-                <div class="btn-group">
-                    <div class="btn">Veja o projeto</div>
-                    <div class="btn">Veja o repositório</div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, repellendus? Tempore beatae ducimus.
+                </p>
+                <div class="btn-group-p">
+                    <div class="btn-p">Veja o projeto</div>
+                    <div class="btn-p">Veja o repositório</div>
                 </div>
             </div>
 
             <!--* Projeto 2 -->
             <div class="project-card">
-                <img src="" alt="second project">
+                <img src="code.png" alt="second project">
                 <h3>Projeto Y</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, repellendus? Tempore beatae ducimus.</p>
-                <div class="btn-group">
-                    <div class="btn">Veja o projeto</div>
-                    <div class="btn">Veja o repositório</div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, repellendus? Tempore beatae ducimus.
+                </p>
+                <div class="btn-group-p">
+                    <div class="btn-p">Veja o projeto</div>
+                    <div class="btn-p">Veja o repositório</div>
                 </div>
             </div>
 
             <!--* Projeto 3 -->
             <div class="project-card">
-                <img src="" alt="third project">
+                <img src="code.png" alt="third project">
                 <h3>Projeto Z</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, repellendus? Tempore beatae ducimus.</p>
-                <div class="btn-group">
-                    <div class="btn">Veja o projeto</div>
-                    <div class="btn">Veja o repositório</div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, repellendus? Tempore beatae ducimus.
+                </p>
+                <div class="btn-group-p">
+                    <div class="btn-p">Veja o projeto</div>
+                    <div class="btn-p">Veja o repositório</div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section id ="contact" class="contact-section">
+        <div class="contact-card">
+            <h2 class="contact-title">
+                Quer me conhecer? Quer trabalhar comigo? Sabia!!
+                Aqui estão minhas informações, fica a vontade meu(minha) caro(a)
+            </h2>
+
+            <p class="contact-text">
+                <a href="mailto:seuemail@example.com" class="email-link">
+                    devgustavorezende@outlook.com
+                </a>
+            </p>
+
+            <div class="social-buttons">
+                <a href="https://www.linkedin.com/in/gustavorezendeee" class="btn-s btn-linkedin">LinkedIn</a>
+                <a href="https://github.com/AleRzendee" class="btn-s btn-github">GitHub</a>
+                <a href="https://www.instagram.com/rzendeee/" class="btn-s btn-instagram">Instagram</a>
+                <a href="https://api.whatsapp.com/send/?phone=5512988848421&text&type=phone_number&app_absent=0"
+                    class="btn-s btn-whatsapp">WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+
+        <ul>
+            <li>
+                <a href="#about">Sobre</a>
+            </li>
+            <!-- <li>
+                <a href="#experience">Experiência</a>
+            </li> -->
+            <li>
+                <a href="#projects">Projetos</a>
+            </li>
+            <li>
+                <a href="#contact">Contato</a>
+            </li>
+        </ul>
+
+        <p class="copyright">&copy; 2025 Gustavo Ale Rezende. Todos os direitos reservados.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
